@@ -1,0 +1,21 @@
+
+runConfig:
+  minInstances: 0
+  cpu: 1
+  memoryMiB: 1024
+
+env:
+  - variable: GLPI_API_URL
+    value: "http://glpi.decorlux.com.br/apirest.php/"
+  - variable: GLPI_USER_TOKEN
+    value: "pgFgRuDMzFr0TB1Gj1sAG4mcLdZ1RYJOYuR9eIeE"
+  - variable: GLPI_APP_TOKEN
+    value: "NYwbUMzs1t7hwGDqg1XnfTllGk3FnSWoTMuQaBH2"
+  - variable: SANKHYA_API_URL
+    value: "https://api.sankhya.com.br/authenticate"
+  - variable: SANKHYA_CLIENT_ID
+    value: "446e669f-dc2d-42dc-a0db-1f7525db0874"
+  - variable: SANKHYA_CLIENT_SECRET
+    value: "XCX25iPivJPTdL14XVS5fj1Gs3DTRAji"
+  - variable: SANKHYA_X_TOKEN
+    value: "95230c08-c328-459c-90ef-1711904e0229"
